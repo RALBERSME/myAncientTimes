@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url("https://cdn.pixabay.com/photo/2024/04/11/16/42/ai-generated-8690166_640.jpg");
+  background-position: 60% 60%;
+  box-sizing: 60%;
+  background-repeat: no-repeat;
+}

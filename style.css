@@ -53,7 +53,6 @@ h1 {
   font-size: 1.5rem;
   padding: 25px;
   margin-top: 70px;
-
   background: rgb(103, 149, 161);
 }
 
@@ -65,7 +64,7 @@ p {
   width: 80%;
   align-self: center;
   text-align: center;
-  padding-top: 160px;
+  padding-top: 180px;
 }
 
 a {
@@ -118,7 +117,7 @@ a {
 }
 
 .container:hover a {
-  transform: translateY(-140px) translateX(-155px);
+  transform: translateY(-152px) translateX(-159px);
   transition-delay: 0.5s;
 }
 

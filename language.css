@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url("https://cdn.pixabay.com/photo/2017/01/06/17/30/rosetta-stone-1958394_640.jpg");
+  background-position: center/cover;
+  background-size: 35%;
+  background-repeat: no-repeat;
+  background-color: rgb(247, 232, 203);
+}
+.container {
+  margin-left: 40%;
+}
+.navContainer {
+  padding: 2.5%;
+  margin-right: 2.5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: url("https://cdn.pixabay.com/photo/2017/02/15/07/45/text-2067823_640.jpg");
+}
+nav li {
+  list-style: none;
+  padding: 5px;
+  width: 95%;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: wheat;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: rgb(249, 222, 170);
+  font-size: 1.35rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+a:hover {
+  color: rgb(252, 238, 81);
+}
+#continue {
+  color: orange;
+  font-size: 1.5rem;
+}
+#continue:hover {
+  color: orangered;
+}
