@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karnak</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: antiquewhite;
+      }
+      .container {
+        margin: 5%;
+        width: 100%;
+      }
+      #letter {
+        display: inline-block;
+        width: 250px;
+        height: 400px;
+        clip-path: polygon(
+          0% 0%,
+          0% 0%,
+          40% 0%,
+          40% 40%,
+          60% 40%,
+          60% 0%,
+          100% 0%,
+          100% 40%,
+          90% 50%,
+          100% 60%,
+          100% 100%,
+          60% 100%,
+          60% 60%,
+          40% 60%,
+          40% 100%,
+          0% 100%,
+          0% 100%
+        );
+      }
+      .info {
+        font-size: 1.5rem;
+        margin-left: 20%;
+        margin-top: -23%;
+        width: 60%;
+      }
+      .templeInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 25%;
+      }
+      li {
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 15px;
+        width: 90%;
+        background: linear-gradient(rgb(192, 173, 143), rgb(247, 237, 222));
+        border-radius: 10px;
+        text-align: center;
+      }
+      li:hover {
+        background: linear-gradient(#243c3b, #88a5b6);
+        color: white;
+      }
+      a {
+        color: black;
+
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://cdn.pixabay.com/photo/2023/03/28/18/28/hieroglyph-7883891_640.jpg"
+        id="letter"
+      />
+      <div class="info">
+        <h1>5th Temple: Karanak</h1>
+        <h2>- refers to the 4th chacra - male -</h2>
+        <p>Coordinates: 25° 43′ N, 32° 39′ O</p>
+        <p>
+          The Karnak Temples are the largest temple complex in Egypt and are
+          located in Karnak, a village about 2.5 kilometers north of Luxor and
+          directly on the eastern bank of the Nile. The oldest remains of the
+          temple that are still visible today date from the 12th Dynasty under
+          Sesostris I.
+          <br /><br />
+          The purpose of the temples was to maintain Maat, because the ancient
+          Egyptian belief system was based on the principle of cosmological
+          order. This principle was also called Maat.
+          <br /><br />
+          The temple dates from 2055 BC to about 100 AD.
+          <br /><br />
+          Karnak is an open-air museum. It is considered the largest religious
+          building or site in the world. The 54,000 square meter Great Hypostyle
+          Hall in the Karnak Temple is large enough to fit comfortably in Notre
+          Dame Cathedral.
+        </p>
+      </div>
+      <div class="templeInfo">
+        <ul>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=CqO4PE4uZhc"
+              target="_blank"
+              >Luxor, Egypt: The Karnak Temple Complex - Rick Steves’ Europe
+              Travel Guide - Travel Bite</a
+            >
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=9_6inr3KLx0"
+              target="_blank"
+              >Virtual Egypt: The Biggest Egyptian Temple - Karnak</a
+            >
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=pcoEJlIT65I"
+              target="_blank"
+              >Karnak Temple Sacred Lake: Has it really Maintained The Same
+              Water Level for 3500 YEARS?
+            </a>
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://digitalkarnak.ucsc.edu/daily-ritual/"
+              target="_blank"
+              >Karnak Temple - Daily Ritual
+            </a>
+          </li>
+          <li>
+            <a class="reconstruction" href="luxor.html"
+              >continue to next temple
+            </a>
+          </li>
+          <li>
+            <a class="reconstruction" href="temples.html"
+              >back to main temples page
+            </a>
+          </li>
+        </ul>
+        <img
+          id="img"
+          width="60%"
+          src="https://cdn.pixabay.com/photo/2010/11/30/egypt-486_640.jpg"
+        /><br /><br />
+      </div>
+    </div>
+  </body>
+</html>

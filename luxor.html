@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luxor</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: antiquewhite;
+      }
+      .container {
+        margin: 5%;
+        width: 100%;
+      }
+      #letter {
+        display: inline-block;
+        width: 250px;
+        height: 400px;
+        clip-path: polygon(
+          0% 0%,
+          0% 0%,
+          0% 0%,
+          40% 0%,
+          40% 0%,
+          40% 0%,
+          40% 60%,
+          40% 60%,
+          40% 80%,
+          40% 80%,
+          100% 75%,
+          100% 100%,
+          100% 100%,
+          100% 100%,
+          0% 100%,
+          0% 100%,
+          0% 100%
+        );
+      }
+      .info {
+        font-size: 1.5rem;
+        margin-left: 20%;
+        margin-top: -23%;
+        width: 60%;
+      }
+      .templeInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 25%;
+      }
+      li {
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 15px;
+        width: 90%;
+        background: linear-gradient(rgb(192, 173, 143), rgb(247, 237, 222));
+        border-radius: 10px;
+        text-align: center;
+      }
+      li:hover {
+        background: linear-gradient(#243c3b, #88a5b6);
+        color: white;
+      }
+      a {
+        color: black;
+
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://cdn.pixabay.com/photo/2023/03/28/18/28/hieroglyph-7883891_640.jpg"
+        id="letter"
+      />
+      <div class="info">
+        <h1>6th Temple: Luxor</h1>
+        <h2>- refers to the 4th chacra - female -</h2>
+        <p>Coordinates: 25° 42′ N, 32° 39′ O</p>
+        <p>
+          Luxor is the ancient city of the pharaohs. It was once the capital of
+          Egypt and the spiritual and religious center.
+          <br /><br />
+          Luxor was built in the period of the "New Kingdom" between
+          1550-1060/70 BC.
+          <br /><br />
+          The Temple of Luxor is famous, a temple in honor of the god Amun,
+          which was largely built by Amenhotep III. One of the granite obelisks
+          that was erected in front of the temple now stands on the Place de la
+          Concorde in Paris (see Obelisk of Luxor).
+        </p>
+      </div>
+      <div class="templeInfo">
+        <ul>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=ZdPuEZsksa8"
+              target="_blank"
+              >Egypt: Luxor, the Temple and the Museum</a
+            >
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=S67pK45JHYg"
+              target="_blank"
+              >Temple of Luxor - Animation</a
+            >
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=dAiHcBxANG8"
+              target="_blank"
+              >'TRANSPARENT' STONE Blocks: the strangest artifacts in the Luxor
+              Temple - VERSADOCO</a
+            >
+          </li>
+          <li>
+            <a class="reconstruction" href="dendera.html"
+              >continue to next temple
+            </a>
+          </li>
+          <li>
+            <a class="reconstruction" href="temples.html"
+              >back to main temples page
+            </a>
+          </li>
+        </ul>
+        <div class="images">
+          <img
+            id="img"
+            width="60%"
+            src="https://cdn.pixabay.com/photo/2021/01/24/16/44/temple-5945719_640.jpg"
+          />
+          <img
+            src="https://cdn.pixabay.com/photo/2018/11/09/11/52/nile-3804402_640.jpg"
+            width="60%"
+          />
+        </div>
+        <br /><br />
+      </div>
+    </div>
+  </body>
+</html>

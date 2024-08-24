@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memphis</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: antiquewhite;
+      }
+      .container {
+        margin: 5%;
+        width: 100%;
+      }
+      #letter {
+        display: inline-block;
+        width: 250px;
+        height: 400px;
+        clip-path: polygon(
+          0% 0%,
+          0% 0%,
+          40% 0%,
+          40% 0%,
+          50% 10%,
+          50% 10%,
+          60% 0%,
+          100% 0%,
+          100% 100%,
+          60% 100%,
+          60% 40%,
+          50% 50%,
+          40% 40%,
+          40% 100%,
+          40% 100%,
+          0% 100%,
+          0% 100%
+        );
+      }
+      .info {
+        font-size: 1.5rem;
+        margin-left: 20%;
+        margin-top: -23%;
+        width: 60%;
+      }
+      .templeInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 25%;
+      }
+      li {
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 15px;
+        width: 90%;
+        background: linear-gradient(rgb(192, 173, 143), rgb(247, 237, 222));
+        border-radius: 10px;
+        text-align: center;
+      }
+      li:hover {
+        background: linear-gradient(#243c3b, #88a5b6);
+        color: white;
+      }
+      a {
+        color: black;
+
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://cdn.pixabay.com/photo/2023/03/28/18/28/hieroglyph-7883891_640.jpg"
+        id="letter"
+      />
+      <div class="info">
+        <h1>11th Temple: Memphis</h1>
+        <h2>- refers to the 9th chacra</h2>
+        <p>Coordinates: 29° 51′ N, 31° 15′ O</p>
+        <p>
+          Memphis was the capital of the first nome of Lower Egypt. Its ruins
+          are located near the towns of Mit-Rahineh and Helwan, about 18 km
+          south of Cairo, and have been a UNESCO World Heritage Site since 1979
+          as part of the Memphis and its Necropolis site - the pyramid fields
+          from Giza to Dahshur.
+          <br /><br />
+          Most of the pyramids found near Cairo, well over 100 in total, were
+          built during this period when Memphis was the most important city in
+          Egypt and most likely in the world.
+          <br /><br />
+          According to legend, Memphis was founded by King Menes in 3000 BC.
+          During the Old Kingdom it was the capital of Egypt.
+        </p>
+      </div>
+      <div class="templeInfo">
+        <ul>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=iZICOGBhEe8"
+              target="_blank"
+              >Walking in Ancient Egypt - The Palace of Apries in Memphis -
+              Animation</a
+            >
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=sqBvoehCU58"
+              target="_blank"
+              >Memphis, the city of pyramids Egypt</a
+            >
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=cKYDWBUd4ds"
+              target="_blank"
+              >The Colossal Statue of Ramesses The Great - Memphis
+            </a>
+          </li>
+          <li>
+            <a class="reconstruction" href="sphinx.html"
+              >continue to next temple
+            </a>
+          </li>
+          <li>
+            <a class="reconstruction" href="temples.html"
+              >back to main temples page
+            </a>
+          </li>
+        </ul>
+        <img
+          id="img"
+          width="60%"
+          height="100%"
+          src="https://cdn.pixabay.com/photo/2014/01/03/01/54/egypt-237873_640.jpg"
+        /><br /><br />
+      </div>
+    </div>
+  </body>
+</html>

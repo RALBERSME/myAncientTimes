@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: #dfe6e9;
+  background: url("https://cdn.pixabay.com/photo/2022/05/05/07/16/egypt-7175473_960_720.jpg");
+  background-size: cover;
+}
+.container {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.info {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 40%;
+  display: block;
+  color: white;
+  font-size: 2.5rem;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 5%;
+  width: fit-content;
+  padding: 1.5%;
+}
+.info p a {
+  text-decoration: none;
+  color: rgb(245, 245, 204);
+  font-size: 1.5rem;
+}
+
+.icon {
+  width: 150px;
+  height: 150px;
+  background: #ecdbb0;
+  margin: 10px;
+  border-radius: 30%;
+
+  box-shadow: 0 5px 15px -5px #00000070;
+  position: relative;
+  overflow: hidden;
+}
+.back {
+  width: 90%;
+  height: 50px;
+  background: #ecdbb0;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: rgb(247, 247, 209);
+  box-shadow: 0 5px 15px -5px #00000070;
+  position: relative;
+  overflow: hidden;
+}
+.icon::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 80%;
+  background: linear-gradient(#db6a4a, #ecd7ba);
+  left: -110%;
+  top: 90%;
+  transform: rotate(45deg);
+}
+.icon:hover::before {
+  animation: animation 0.7s 1 forwards;
+}
+@keyframes animation {
+  0% {
+    left: -110%;
+    top: 90%;
+  }
+  50% {
+    left: 15%;
+    top: -30%;
+  }
+  100% {
+    top: -60%;
+    left: -0%;
+  }
+}
+
+a {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 1.25rem;
+  text-align: center;
+  transform: rotate(5deg);
+  color: #e5d07d;
+  text-shadow: 1px 1px 1px black;
+}
+a:hover {
+  color: #db6a4a;
+  font-weight: bold;
+}

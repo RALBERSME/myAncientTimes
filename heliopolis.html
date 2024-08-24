@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heliopolis</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: antiquewhite;
+      }
+      .container {
+        margin: 5%;
+        width: 100%;
+      }
+      #letter {
+        display: inline-block;
+        width: 250px;
+        height: 400px;
+        clip-path: polygon(
+          0% 0%,
+          0% 0%,
+          40% 0%,
+          40% 0%,
+          40% 40%,
+          40% 40%,
+          60% 40%,
+          60% 0%,
+          100% 0%,
+          100% 100%,
+          60% 100%,
+          60% 60%,
+          40% 60%,
+          40% 100%,
+          40% 100%,
+          0% 100%,
+          0% 100%
+        );
+      }
+
+      .info {
+        font-size: 1.5rem;
+        margin-left: 20%;
+        margin-top: -23%;
+        width: 60%;
+      }
+      .templeInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 25%;
+      }
+      li {
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 15px;
+        width: 90%;
+        background: linear-gradient(rgb(192, 173, 143), rgb(247, 237, 222));
+        border-radius: 10px;
+        text-align: center;
+      }
+      li:hover {
+        background: linear-gradient(#243c3b, #88a5b6);
+        color: white;
+      }
+      a {
+        color: black;
+
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://cdn.pixabay.com/photo/2023/03/28/18/28/hieroglyph-7883891_640.jpg"
+        id="letter"
+      />
+      <div class="info">
+        <h1>13th Temple: Heliopolis</h1>
+        <h2>- refers to the 11th chacra</h2>
+        <p>Coordinates: 30° 8′ N, 31° 18′ O</p>
+        <p>
+          Heliopolis was an ancient Egyptian city in Lower Egypt in the area of
+          ​​present-day Cairo, which existed from the predynastic era. According
+          to ancient Egyptian belief, the world was created there. In addition
+          to the main gods Re and Atum, Hathor, Horus and the Mnevis bull were
+          also worshipped.
+          <br /><br />
+          The oldest known temples there date from almost 4,600 years ago, from
+          the time of the first pyramids in Egypt.
+          <br /><br />
+          It is the seat of worship of the sun god Re.
+        </p>
+      </div>
+      <div class="templeInfo">
+        <ul>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=WreERusxRTc"
+              target="_blank"
+              >Egypt Heliopolis - Full Movie | Documentary Movie | History,
+              Archaeology</a
+            >
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=wyMxo7kQfoU"
+              target="_blank"
+              >The Great Temple of Heliopolis & the Pyramids of Egypt | Ancient
+              Architects</a
+            >
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://archaeology.org/news/2021/09/20/210920-egypt-ritual-temple/"
+              target="_blank"
+              >Ritual Objects Discovered in Northern Egypt
+            </a>
+          </li>
+          <li>
+            <a class="reconstruction" href="gizeh.html"
+              >continue to next temple
+            </a>
+          </li>
+          <li>
+            <a class="reconstruction" href="temples.html"
+              >back to main temples page
+            </a>
+          </li>
+        </ul>
+        <img
+          id="img"
+          width="60%"
+          src="https://cdn.pixabay.com/photo/2020/01/20/04/16/pharaoh-4779459_960_720.png"
+        />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Edfu</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: antiquewhite;
+      }
+      .container {
+        margin: 5%;
+        width: 100%;
+      }
+      #letter {
+        display: inline-block;
+        width: 250px;
+        height: 400px;
+        clip-path: polygon(
+          0% 0%,
+          0% 0%,
+          100% 0%,
+          100% 0%,
+          100% 20%,
+          100% 20%,
+          40% 20%,
+          40% 40%,
+          80% 40%,
+          80% 60%,
+          40% 60%,
+          40% 80%,
+          100% 80%,
+          100% 100%,
+          100% 100%,
+          0% 100%,
+          0% 100%
+        );
+      }
+      .info {
+        font-size: 1.5rem;
+        margin-left: 20%;
+        margin-top: -23%;
+        width: 60%;
+      }
+      .templeInfo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-top: 25%;
+      }
+      li {
+        list-style: none;
+        font-size: 1.5rem;
+        padding: 15px;
+        width: 90%;
+        background: linear-gradient(rgb(192, 173, 143), rgb(247, 237, 222));
+        border-radius: 10px;
+        text-align: center;
+      }
+      li:hover {
+        background: linear-gradient(#243c3b, #88a5b6);
+        color: white;
+      }
+      a {
+        color: black;
+
+        text-decoration: none;
+      }
+      a:hover {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="https://cdn.pixabay.com/photo/2023/03/28/18/28/hieroglyph-7883891_640.jpg"
+        id="letter"
+      />
+      <div class="info">
+        <h1>4th Temple: Edfu</h1>
+        <h2>- refers to the 3rd chacra</h2>
+        <p>Coordinates: 24° 58′ 41,4″ N, 32° 52′ 24,6″ O</p>
+        <p>
+          The Temple of Edfu is an ancient Egyptian temple complex on the
+          western edge of the city of Edfu in Upper Egypt. The city is located
+          on the west bank of the Nile, about 100 kilometers north of Aswan and
+          85 kilometers south of Luxor. The temple is considered one of the best
+          preserved in Egypt.
+          <br /><br />
+          The building has a wealth of legible inscriptions on the walls. It is
+          dedicated to the falcon god Horus. The temple was built between 237
+          and 57 BC.
+        </p>
+      </div>
+      <div class="templeInfo">
+        <ul>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=_0dr28J9F-c"
+              target="_blank"
+              >Visiting the Temple of Horus at Edfu, Egypt
+            </a>
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.youtube.com/watch?v=iXVQU1NeEZk"
+              target="_blank"
+              >Edfu Temple Animation
+            </a>
+          </li>
+          <li>
+            <a
+              class="reconstruction"
+              href="https://www.universiteitleiden.nl/en/research/research-output/humanities/the-coronation-ritual-of-the-falcon-at-edfu"
+              target="_blank"
+              >The coronation ritual of the falcon at Edfu
+            </a>
+          </li>
+          <li>
+            <a class="reconstruction" href="karnak.html"
+              >continue to next temple
+            </a>
+          </li>
+          <li>
+            <a class="reconstruction" href="temples.html"
+              >back to main temples page
+            </a>
+          </li>
+        </ul>
+        <img
+          id="img"
+          width="60%"
+          src="https://cdn.pixabay.com/photo/2018/04/10/07/36/egypt-3306580_640.jpg"
+        /><br /><br />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Serif Text", serif;
+  background-color: #212121;
+}
+
+.container {
+  width: 1500px;
+  height: 600px;
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  content: "";
+  background-color: #2d3436;
+  opacity: 0.8;
+}
+
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+  text-transform: uppercase;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 25px;
+  margin-top: 70px;
+
+  background: rgb(103, 149, 161);
+}
+
+p {
+  font-size: 2rem;
+  color: lightblue;
+  color: rgb(231, 240, 199);
+  text-shadow: 1px 2px 2px black;
+  width: 80%;
+  align-self: center;
+  text-align: center;
+  padding-top: 160px;
+}
+
+a {
+  text-decoration: none;
+  background: rgb(103, 149, 161);
+
+  color: rgb(225, 232, 239);
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  padding: 50px 15px;
+  margin-bottom: 20px;
+  align-self: center;
+  border-radius: 50%;
+}
+
+/* hovering effect goes here */
+.container {
+  background-color: #444;
+  border: 10px solid white;
+  overflow: hidden;
+}
+
+img {
+  transition: all 0.5s;
+}
+
+.container:hover img {
+  transform: rotate(720deg) scale(0);
+  opacity: 0;
+}
+
+.container:before {
+  background: url("https://cdn.pixabay.com/photo/2024/02/28/15/34/ai-generated-8602263_640.jpg");
+  background-position: 0% 20%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.container:hover:before {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+a {
+  transform: translateY(-300px);
+  transition: all 0.2s;
+}
+
+.container:hover a {
+  transform: translateY(-140px) translateX(-155px);
+  transition-delay: 0.5s;
+}
+
+p {
+  transform: translateY(-300px);
+  transition: all 0.2s;
+}
+
+.container:hover p {
+  transform: rotateX(90deg);
+  transition-delay: 0.7s;
+}
+
+h1 {
+  transform: translateY(-300px);
+  transition: all 0.2s;
+}
+
+.container:hover h1 {
+  transform: translateY(0);
+  transition-delay: 0.9s;
+}

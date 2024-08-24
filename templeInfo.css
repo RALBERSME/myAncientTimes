@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url("https://cdn.pixabay.com/photo/2020/10/06/22/32/egyptian-5633528_640.png");
+  background-repeat: repeat-x;
+  background-size: 10%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin: 15%;
+  height: 60%;
+  background: url("https://cdn.pixabay.com/photo/2013/07/12/14/47/hieroglyphs-148785_640.png");
+}
+h1 {
+  color: #c22119;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+  margin-top: 72%;
+  margin-left: 11%;
+  height: fit-content;
+  width: fit-content;
+  background-color: #6af0e7;
+  border-radius: 3px;
+  padding: 3px 0;
+}
+h2 {
+  color: #c22119;
+  text-align: center;
+  text-shadow: 1px 2px 2px white;
+  margin-top: 40%;
+  border-radius: 3px;
+  margin-left: 4%;
+  height: fit-content;
+  width: fit-content;
+  background: linear-gradient(to right bottom, #6af0e7, #16f0e1);
+}
+a {
+  text-decoration: none;
+  color: #c22119;
+  text-align: center;
+  text-shadow: 1px 1px 1px white;
+  margin-top: 70%;
+  padding: 3px 0;
+  border-radius: 3px;
+  margin-left: 6.5%;
+  font-size: 1.5rem;
+  height: fit-content;
+  width: 90%;
+  background-color: #16f0e1fd;
+}
+a:hover {
+  color: orangered;
+}

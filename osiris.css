@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: linear-gradient(to right bottom, #e0cb6f, #ffffcb);
+}
+.container {
+  margin: 5%;
+  font-size: 1.5rem;
+}
+hr {
+  margin: 1px auto;
+  width: 10%;
+
+  border-style: dashed;
+}
+a {
+  text-decoration: none;
+  color: #e0cb6f;
+  padding: 5px 15px;
+  background-color: gray;
+  border-radius: 10px;
+}
+a:hover {
+  background-color: #e0cb6f;
+  color: gray;
+}
