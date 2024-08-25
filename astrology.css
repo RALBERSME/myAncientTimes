@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://cdn.pixabay.com/photo/2022/08/10/22/34/khouenaten-7378281_640.png");
+}
+.overlay {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  height: 100%;
+  width: 95%;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.container {
+  margin: 2.5% 7.5%;
+  height: 100%;
+  text-align: center;
+  color: rgb(80, 68, 1);
+  font-size: 1.1rem;
+}
+.astrology,
+.astronomy {
+  margin-left: 20%;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+  padding: 2%;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  transform: translateY(-250px);
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(69, 68, 68);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+a:hover {
+  color: dodgerblue;
+}
+
+hr {
+  width: 20%;
+  margin: 5px auto;
+  border-style: dotted none none;
+  border-color: rgb(80, 68, 1);
+  border-width: 5px;
+}
