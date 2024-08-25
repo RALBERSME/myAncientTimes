@@ -32,6 +32,9 @@ body {
   }
   to {
     transform: scale(2) translateX(-100px);
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
 }
 
