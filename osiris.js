@@ -1,8 +1,8 @@
 const osirisSrc = [
-  "https://cdn.pixabay.com/photo/2022/08/25/19/54/osiris-7411151_640.png",
-  "https://cdn.pixabay.com/photo/2022/08/25/19/55/osiris-7411155_640.png",
-  "https://cdn.pixabay.com/photo/2022/08/25/19/55/osiris-7411152_640.png",
-  "https://cdn.pixabay.com/photo/2022/08/25/19/54/osiris-7411148_1280.png",
+  "Images/osiris1.png",
+  "Images/osiris2.png",
+  "Images/osiris3.png",
+  "Images/osiris4.png",
 ];
 let index = 0;
 let interval = setInterval(() => {

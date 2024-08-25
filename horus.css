@@ -5,12 +5,12 @@
 }
 body {
   height: 100vh;
-  background: url("https://cdn.pixabay.com/photo/2013/07/12/18/09/horus-153070_1280.png");
+  background: url("Images/horusEye.png");
   background-repeat: repeat-y;
   background-size: 10%;
 }
 .container {
-  margin: 2.5% 10%;
+  margin: 1.5% 10%;
   padding: 2%;
 }
 .details {

@@ -206,6 +206,5 @@ const showMoreIds = [
 ];
 
 function showMore(num) {
-  console.log("showMore num is", num, typeof num);
   document.getElementById(showMoreIds[num]).innerHTML = moreDataArray[num];
 }

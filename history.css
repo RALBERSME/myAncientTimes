@@ -8,19 +8,28 @@ body {
   font-family: "Gupter", serif;
   color: #8c8c8c;
   padding: 2.5%;
-  background-image: url("https://cdn.pixabay.com/photo/2017/01/31/22/11/egypt-2027647_640.png");
+  background-image: url("Images/pyramidenSkizze.png");
   background-color: whitesmoke;
 }
 
 .header {
   background-image: linear-gradient(
-      to right bottom,
-      rgba(44, 39, 31, 0.793),
-      rgba(25, 25, 24, 0.807)
-    ),
-    url("Images/cologne-4969546_640.jpg");
+    to right bottom,
+    rgba(44, 39, 31, 0.793),
+    rgba(25, 25, 24, 0.807)
+  );
   background-size: cover;
   background-position: top;
+  clip-path: polygon(
+    10% 0%,
+    90% 0%,
+    100% 7%,
+    100% 90%,
+    100% 100%,
+    0 100%,
+    0% 80%,
+    0 7%
+  );
 }
 .intro {
   padding: 2%;

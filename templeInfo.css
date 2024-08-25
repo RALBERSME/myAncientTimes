@@ -5,7 +5,7 @@
 }
 body {
   height: 100vh;
-  background: url("https://cdn.pixabay.com/photo/2020/10/06/22/32/egyptian-5633528_640.png");
+  background: url("Images/goddess.png");
   background-repeat: repeat-x;
   background-size: 10%;
   background-color: rgba(0, 0, 0, 0.2);
@@ -17,7 +17,7 @@ body {
   gap: 25px;
   margin: 15%;
   height: 60%;
-  background: url("https://cdn.pixabay.com/photo/2013/07/12/14/47/hieroglyphs-148785_640.png");
+  background: url("Images/hieroglyphsPapyrus.png");
 }
 h1 {
   color: #c22119;
