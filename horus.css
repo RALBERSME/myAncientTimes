@@ -9,3 +9,35 @@ body {
   background-repeat: repeat-y;
   background-size: 10%;
 }
+.container {
+  margin: 2.5% 10%;
+  padding: 2%;
+}
+.details {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+hr {
+  width: 25%;
+  margin: 5px auto;
+  border-style: dotted none none;
+  border-color: black;
+  border-width: 7px;
+}
+
+.links li {
+  list-style: none;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.links {
+  padding-right: 15px;
+}
+.links a {
+  text-decoration: none;
+  color: goldenrod;
+  font-size: 1.5rem;
+}
+.links a:hover {
+  color: dodgerblue;
+}
