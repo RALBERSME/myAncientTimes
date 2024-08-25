@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://cdn.pixabay.com/photo/2020/04/05/17/54/work-5007097_640.jpg");
+  background-position: center/cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100svh;
+  display: grid;
+  place-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.container {
+  margin: 2.5%;
+  display: flex;
+  gap: 1.5%;
+}
+.card {
+  text-align: center;
+  width: 300px;
+  height: 590px;
+  border-radius: 10px;
+  overflow: clip;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  background-color: rgb(41, 94, 154);
+  outline: 1px solid rgb(41, 94, 154);
+  outline-offset: 2px;
+  transform: rotate(5deg);
+}
+
+main {
+  margin-top: 90px;
+  flex: 1;
+  padding: 10px;
+  background: rgb(105, 104, 104);
+  clip-path: path(
+    "M 0 0 c 0 0 40 -75 160 -0 C 360 28 250 100 400 100 L400 1000 0 1000 Z"
+  );
+}
+main > img {
+  margin-top: 3.25rem;
+  border-radius: 30%;
+  width: 130px;
+  height: 120px;
+  margin-inline: auto;
+  outline: 4px solid rgb(41, 94, 154);
+  outline-offset: 5px;
+}
+h2 {
+  margin-top: 15px;
+}
+p {
+  padding: 5px;
+}
+a {
+  color: rgb(248, 250, 228);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+a:hover {
+  color: rgb(115, 172, 246);
+}
+#continue {
+  font-size: 1.5rem;
+}
