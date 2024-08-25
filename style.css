@@ -112,12 +112,12 @@ img {
 }
 
 a {
-  transform: translateY(-300px);
+  transform: translateY(-270px);
   transition: all 0.2s;
 }
 
 .container:hover a {
-  transform: translateY(-200px) translateX(-155px);
+  transform: translateY(-230px) translateX(-155px);
   transition-delay: 0.5s;
 }
 
